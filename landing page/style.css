@@ -229,6 +229,12 @@ margin-top: 2rem;
 @media (max-width: 768px){
   .menu-grid{
     grid-template-columns: 1fr 1fr;
+    margin-left: .5rem;
+  }
+}
+@media (max-width: 400px){
+  .menu-grid{
+    grid-template-columns: 1fr;
   }
 }
 
