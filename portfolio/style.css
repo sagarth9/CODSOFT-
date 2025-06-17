@@ -1,0 +1,158 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: #f9f9f9;
+  color: #333;
+  line-height: 1.6;
+}
+
+header {
+  background-color: #333;
+  color: white;
+  padding: 2rem;
+  text-align: center;
+}
+
+.tagline {
+  margin-top: 0.5rem;
+  font-size: 1rem;
+  color: #ccc;
+}
+
+section {
+  padding: 3rem 2rem;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.about-content {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.about h2{
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+    text-decoration: underline #4b6cb7;
+}
+
+.profile-photo {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.5);
+  transition: all 0.3s ease-in;
+}
+
+.profile-photo:hover{
+    cursor: pointer;
+    transform: translateY(-3px);
+}
+
+.skills ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  list-style: none;
+  margin-top: 1rem;
+}
+
+.skills h2{
+    text-decoration: underline #4b6cb7;
+}
+
+.skills li {
+  background: #4b6cb7;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.2s ease-in;
+}
+
+.skills li:hover{
+   transform: translateY(-2px);
+  box-shadow: 0px 3px 6px rgba(0,0,0,0.5);
+}
+
+.projects .project-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.projects h2{
+   text-decoration: underline #4b6cb7;
+}
+
+.project {
+  background: white;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  text-align: center;
+  padding: 1rem;
+}
+
+.project img {
+  width: 100%;
+  height: 150px;
+  object-fit: contain;
+  border-bottom: 1px solid #ddd;
+  cursor: pointer;
+  transition: all 0.2s ease-in;
+}
+.project img:hover{
+  transform: translateY(-5px);
+  box-shadow: 0px 4px 10px rgba(0,0,0,0.5);
+}
+
+
+.project a{
+  text-decoration: none;
+  color: #4b6cb7;
+}
+
+.resume .btn {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  background: #4b6cb7;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  margin-top: 1rem;
+  transition: all 0.2s ease-in;
+}
+.btn:hover{
+  transform: translateY(-2px);
+  box-shadow: 0px 3px 6px rgba(0,0,0,0.5);
+}
+
+.resume h2{
+  text-decoration: underline #4b6cb7;
+}
+
+.contact p {
+  margin-bottom: 0.5rem;
+}
+
+.contact h2{
+  text-decoration: underline #4b6cb7;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background: #333;
+  color: white;
+}
+
